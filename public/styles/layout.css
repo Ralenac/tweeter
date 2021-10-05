@@ -14,12 +14,29 @@ html {
  * Global layout stuff
  */
 
+ nav {
+   font-family: "Bungee";
+ }
+
 body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: "sans-serif";
+  margin: 0
 }
+
+
+.container {
+  margin: auto;
+  width: 90%;
+  background-color: #f4f1ec;
+  font-size: 16px;
+}
+
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+

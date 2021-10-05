@@ -1,0 +1,33 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 300;
+  width: 100%;
+  margin-top: 1.5em;
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Bungee", "sans-serif";
+}
+
+footer button {
+  color: aliceblue;
+  background-color: blue;
+}
+
+.counter {
+  color: gray;
+}
+
+#tweet-text{
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 0.5em;
+}
