@@ -8,13 +8,6 @@ form {
 }
 
 
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  font-family: "Bungee", "sans-serif";
-}
-
 footer button {
   color: aliceblue;
   background-color: blue;
@@ -30,4 +23,10 @@ footer button {
   outline: none;
   border-bottom: 1px solid gray;
   margin-bottom: 0.5em;
+}
+
+.tweeter{
+  display: flex;
+  justify-content: space-between;
+  font-family: "Bungee", "sans-serif";
 }
