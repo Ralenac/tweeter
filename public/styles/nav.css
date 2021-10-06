@@ -9,7 +9,11 @@ nav {
   height: 120px;
   font-size: 32px;
   font-family: "Bungee";
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
   z-index: 100;
+
 }
 
 nav > span {
@@ -33,4 +37,9 @@ nav #nav-container {
 
 .fa-angle-double-down {
   color: red
+}
+
+
+.headercontainer{
+  margin-top: 120px;
 }
