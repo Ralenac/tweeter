@@ -1,8 +1,7 @@
 # Tweeter Project
 
-Tweeter is a simple, single-page Twitter clone.
+Tweeter is a front-end (client-side) project. The goal was to build a simplified single-page Twitter clone using HTML, CSS, JS, jQuery and AJAX.
 
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express and MongoDB back-end skills.
 
 ## Getting Started
 
@@ -10,6 +9,16 @@ This repository is the starter code for the project: Students will fork and clon
 2. Install dependencies using the `npm install` command.
 3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
 4. Go to <http://localhost:8080/> in your browser.
+
+
+## Final Product
+
+### Screenshots 
+!["Main page for desktop"](https://github.com/Ralenac/tweeter/blob/master/docs/screenshot-main-page-desktop.png)
+!["Main page for desktop, with an error message."](https://github.com/Ralenac/tweeter/blob/master/docs/screenshot-main-page-error.png)
+!["Main page for tablet"](https://github.com/Ralenac/tweeter/blob/master/docs/screenshot-main-page-tablet.png)
+!["Second error message"](https://github.com/Ralenac/tweeter/blob/master/docs/screenshot-second-error.png)
+!["Tweet when mouse hovers over"](https://github.com/Ralenac/tweeter/blob/master/docs/screenshot-hover.png)
 
 ## Dependencies
 
