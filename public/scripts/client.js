@@ -1,6 +1,6 @@
 $(document).ready(() => {
 
-  //// This function loops over each tweet in an array of tweet objects and prepends each tweet in the tweetContainer by calling the createTweetElement function on it.
+  // This function loops over each tweet in an array of tweet objects and prepends each tweet in the tweetContainer by calling the createTweetElement function on it.
   const renderTweets = function(tweets) {
     for (const tweet of tweets) {
       const $tweet = createTweetElement(tweet);
@@ -71,8 +71,8 @@ $(document).ready(() => {
   $("#formTweet").submit(function(event) {
     event.preventDefault();
 
-    const error1 = "🛑🛑🛑 The tweet is too long 🛑🛑🛑";
-    const error2 = "🛑🛑🛑 Please input text 🛑🛑🛑";
+    const error1 = "🛑 The tweet is too long ";
+    const error2 = "🛑 All tweets must contain at least one character ";
 
     let inputLength = $(this).children("#tweet-text").val().length;
     if (inputLength > 140) {
