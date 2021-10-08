@@ -1,17 +1,21 @@
-$(document).ready(function() {
-  $('textarea').on("input",function(input) {
-    const maxLength = 140
-    let inputLength = $(this).val().length
+// This function count the number of characters entered in text-box and change colour to red when exceeds the limit.
 
-    const caractersLeft = maxLength - inputLength
-    
-    const $counter = $(this).siblings("footer").children('.tweeter').children('.counter'); 
-    $counter.text(caractersLeft)
+$(document).ready(function() {
+  $('textarea').on("input", function() {
+    const maxLength = 140;
+    let inputLength = $(this).val().length;
+
+    $("#error-message").css("display", "none");
+
+    const caractersLeft = maxLength - inputLength;
+
+    const $counter = $(this).siblings("footer").children('.tweeter').children('.counter');
+    $counter.text(caractersLeft);
 
     if (caractersLeft < 0) {
-      $counter.css("color", "red")
+      $counter.addClass("counterError");
     } else {
-      $counter
+      $counter.removeClass("counterError");
     }
   });
 

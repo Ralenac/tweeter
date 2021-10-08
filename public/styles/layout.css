@@ -10,19 +10,15 @@ html {
   box-sizing: inherit;
 }
 
-/*
- * Global layout stuff
- */
-
  nav {
-   font-family: "Bungee";
+   font-family: "Bungee", "sans-serif";
  }
 
 body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
-  font-family: "sans-serif";
+  font-family: "Source Sans Pro", "sans-serif";
   margin: 0
 }
 
@@ -34,9 +30,19 @@ body {
   font-size: 16px;
 }
 
+/* Responsive design for tablets */
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
+@media screen and (min-width: 880px){
+  body {
+    display: flex;
+    flex-direction: row;
+  }
 
-
+   .new-tweet{
+   margin-top: 10em;
+   margin-right: 2em;
+  }
+  .tweeter-container {
+    margin-right: 2em;
+  }
+}

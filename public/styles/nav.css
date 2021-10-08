@@ -1,14 +1,14 @@
-
-
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   color: #FFFFFF;
   background-color: #4056A1;
   height: 120px;
   font-size: 32px;
-  font-family: "Bungee";
+  font-family: "Bungee","sans-serif";
   position: fixed; 
   top: 0; 
   width: 100%; 
@@ -16,14 +16,6 @@ nav {
 
 }
 
-nav > span {
-  margin-left: 1.5em;
-  
-}
-
-.newTweet {
-  margin-right: 1.5em
-}
 
 nav #nav-container {
   display: flex;
@@ -31,15 +23,16 @@ nav #nav-container {
   align-items: center;
   margin-top: 1.7rem;
   font-size: 16px;
-  font-family: 'Source Sans Pro'
+  font-family: "Source Sans Pro", "sans-serif";
 
 }
 
 .fa-angle-double-down {
-  color: red
+  color: red;
+  
 }
 
+.fa-angle-double-down:hover {
+transform: translate(0, 5px);
 
-.headercontainer{
-  margin-top: 120px;
 }

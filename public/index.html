@@ -33,8 +33,12 @@
   <script type="text/javascript" src="/scripts/client.js"></script>
   <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
 
-<!--timeago library-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js" integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--timeago library-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js"
+    integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 
 </head>
 
@@ -44,10 +48,10 @@
     <span>tweeter</span>
     <div id="nav-container">
       <span class="newTweet"><strong>Write</strong> a new tweet here</span>
-      <span id="arrow"><i class="fas fa-angle-double-down"></i><span>
+      <span><i class="fas fa-angle-double-down"></i></span>
     </div>
   </nav>
-
+   <!-- Header includes Name and profile picture -->
   <header class="headercontainer">
     <div>
       <img src="/images/profile-hex.png">
@@ -62,11 +66,13 @@
   <main class="container">
     <section class="new-tweet">
       <form id="formTweet">
-        <!-- <label for="tweet-text">What are you humming about?</label> -->
-        <textarea name="text" placeholder="What are you humming about?" id="tweet-text"></textarea>
+        <div id="error-message"> </div>
+        <label class="textarea-lable" for="tweet-text">What are you humming about?</label>
+        <textarea name="text" id="tweet-text"></textarea>
+        <div></div>
         <footer>
           <div class="tweeter">
-            <button id="tweetPost" type="submit">Tweet</button>
+            <button type="submit">Tweet</button>
             <output name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </footer>
@@ -76,4 +82,5 @@
     </section>
   </main>
 </body>
+
 </html>

@@ -17,6 +17,10 @@ footer button {
   color: gray;
 }
 
+.counterError {
+  color: red;
+}
+
 #tweet-text{
   width: 100%;
   border: none;
@@ -30,3 +34,27 @@ footer button {
   justify-content: space-between;
   font-family: "Bungee", "sans-serif";
 }
+
+
+.textarea-lable{
+  font-family: 'Source Sans Pro', "sans-serif";
+  color: gray;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#error-message {
+  display:none;
+  border: 5px solid #c92432;
+  border-radius: 4px;
+  padding: 1em;
+  width: 95%;
+  background-color: #fffafa;
+  margin-bottom: 1em;
+  font-family: 'Source Sans Pro', "sans-serif";
+  color: #c92432;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: wider;
+}
+

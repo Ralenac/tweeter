@@ -1,4 +1,4 @@
-.tweeter-container{
+.tweet{
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   width: 100%;
@@ -6,7 +6,7 @@
   font-family: 'Source Sans Pro', "sans-serif";
 }
 
-.tweeter-container:hover{
+.tweet:hover{
   box-shadow: 5px 10px rgb(197, 197, 202);
 }
 
@@ -14,10 +14,7 @@ article.tweet header{
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
-  margin-bottom: 1.5em;
-  margin-top: 1.5em;
+  margin: 1.5em
 }
 
 article.tweet header div{
@@ -56,7 +53,7 @@ margin-bottom: 3em;
   margin-right: 1.5em;
 }
 
-article.tweet main {
+article.tweet > p {
   margin-left: 1.5em;
   margin-right: 1.5em;
   font-size: 24px;
@@ -67,3 +64,5 @@ article.tweet main {
   color: RGB(204, 170, 43);
   cursor: grab;
 }
+
+
