@@ -14,10 +14,20 @@ Tweeter is a front-end (client-side) project. The goal was to build a simplified
 ## Final Product
 
 ### Screenshots 
+
+#### Main page for desktop.
 !["Main page for desktop"](https://github.com/Ralenac/tweeter/blob/master/docs/screenshot-main-page-desktop.png)
+
+#### Main page for desktop, with an error message.
 !["Main page for desktop, with an error message."](https://github.com/Ralenac/tweeter/blob/master/docs/screenshot-main-page-error.png)
+
+#### Main page for tablet.
 !["Main page for tablet"](https://github.com/Ralenac/tweeter/blob/master/docs/screenshot-main-page-tablet.png)
+
+#### Second error message.
 !["Second error message"](https://github.com/Ralenac/tweeter/blob/master/docs/screenshot-second-error.png)
+
+#### Tweet when mouse hovers over.
 !["Tweet when mouse hovers over"](https://github.com/Ralenac/tweeter/blob/master/docs/screenshot-hover.png)
 
 ## Dependencies
